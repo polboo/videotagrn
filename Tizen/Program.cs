@@ -1,13 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-
 using ReactNative;
-using ReactNative.Common;
-using ReactNative.Tracing;
 using ReactNative.Shell;
 using ReactNative.Modules.Core;
-
-using Tizen.Applications;
 using Tizen;
 
 namespace TestApp
@@ -62,7 +57,11 @@ namespace TestApp
 #endif
             }
         }
-
+        protected override void OnCreate()
+        {
+            base.OnCreate();
+            RootView.BackgroundColor = ElmSharp.Color.Transparent;
+        }
         static void Main(string[] args)
         {
             try
