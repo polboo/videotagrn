@@ -4,6 +4,7 @@ using ReactNative;
 using ReactNative.Shell;
 using ReactNative.Modules.Core;
 using Tizen;
+using Tizen.Applications;
 
 namespace TestApp
 {
