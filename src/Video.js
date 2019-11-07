@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { View, Text } from "react-native";
 
-class videotag extends Component {
+class Video extends Component {
   constructor(props) {
     super(props);
     this.state = {};
@@ -10,10 +10,12 @@ class videotag extends Component {
   render() {
     return (
       <View>
-        <Text> videotag </Text>
+        <Text style={{ top: 400, left: 400, width: 800, height: 200 }}>
+          Welcome to tizen ! Welcome to Samsung~
+        </Text>
       </View>
     );
   }
 }
 
-export default videotag;
+export default Video;

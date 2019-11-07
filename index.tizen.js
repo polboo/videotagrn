@@ -6,36 +6,15 @@
 
 import React, { Component } from "react";
 import { AppRegistry, StyleSheet, Text, View } from "react-native";
-
-export default class hello_tizen extends Component {
+import Video from "./src/Video";
+export default class video_tag_user extends Component {
   render() {
     return (
       <View>
-        <Text style={{ top: 400, left: 400, width: 400, height: 100 }}>
-          Welcome to tizen ! Welcome to Samsung~
-        </Text>
+        <Video />
       </View>
     );
   }
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
-    backgroundColor: "#F5FCFF"
-  },
-  welcome: {
-    fontSize: 20,
-    textAlign: "center",
-    margin: 10
-  },
-  instructions: {
-    textAlign: "center",
-    color: "#333333",
-    marginBottom: 5
-  }
-});
-
-AppRegistry.registerComponent("videotagrn", () => hello_tizen);
+AppRegistry.registerComponent("videotagrn", () => video_tag_user);
