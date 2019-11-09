@@ -7,7 +7,7 @@
 import React, { Component } from "react";
 import { AppRegistry, StyleSheet, Text, View } from "react-native";
 import Video from "./src/Video";
-export default class video_tag_user extends Component {
+export default class VideoTagUser extends Component {
   render() {
     return (
       <View>
@@ -17,4 +17,4 @@ export default class video_tag_user extends Component {
   }
 }
 
-AppRegistry.registerComponent("videotagrn", () => video_tag_user);
+AppRegistry.registerComponent("videotagrn", () => VideoTagUser);

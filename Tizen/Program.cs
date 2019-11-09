@@ -6,6 +6,7 @@ using ReactNative.Modules.Core;
 using Tizen;
 using Tizen.Applications;
 
+
 namespace TestApp
 {
     class TestApp : ReactProgram
@@ -42,7 +43,7 @@ namespace TestApp
             {
                 return new List<IReactPackage>
                 {
-                    new MainReactPackage(),
+                    new MainReactPackage()
                 };
             }
         }

@@ -19,12 +19,13 @@
   },
   "jest": {},
   "config": {
-    "tvip": "192.168.100.1",
+    "tvip": "127.0.0.1",
     "mode": "Release"
   },
   "dependencies": {
     "react": "15.4.2",
     "react-native": "0.42.3",
+    "react-native-juvo-player-api": "1.1.0",
     "react-native-tizen-dotnet": ">=0.1.1"
   }
 }
