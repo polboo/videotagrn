@@ -5,6 +5,7 @@ using ReactNative.Shell;
 using ReactNative.Modules.Core;
 using Tizen;
 using Tizen.Applications;
+using JuvoReactNative;
 
 namespace TestApp
 {
@@ -43,6 +44,7 @@ namespace TestApp
                 return new List<IReactPackage>
                 {
                     new MainReactPackage(),
+                    new JuvoPlayerReactPackage()
                 };
             }
         }
